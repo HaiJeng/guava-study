@@ -1,10 +1,9 @@
 package com.gtt.basicutilities;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
 import com.google.common.base.Optional;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @author tiantiangao

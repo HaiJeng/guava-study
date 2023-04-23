@@ -1,12 +1,12 @@
 package com.gtt.basicutilities;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
-
+import com.google.common.base.MoreObjects;
 import com.google.common.base.Objects;
 import com.google.common.collect.ComparisonChain;
 import com.google.common.primitives.Ints;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * 
@@ -35,7 +35,7 @@ public class ObjectsTest {
 
 	private void testToString() {
 		assertEquals("Object{name=test, age=18}",
-				Objects.toStringHelper(Object.class).add("name", "test").add("age", 18).toString());
+				MoreObjects.toStringHelper(Object.class).add("name", "test").add("age", 18).toString());
 	}
 
 	private void testCompare() {

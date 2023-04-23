@@ -1,15 +1,15 @@
 package com.gtt.basicutilities;
 
-import static org.junit.Assert.*;
+import com.google.common.base.Throwables;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.Arrays;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import com.google.common.base.Throwables;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @author tiantiangao

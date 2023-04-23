@@ -1,14 +1,12 @@
 package com.gtt.basicutilities;
 
-import static com.google.common.base.Preconditions.*;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-
+import com.google.common.collect.Lists;
 import java.util.ArrayList;
 
-import org.junit.Test;
+import static com.google.common.base.Preconditions.*;
+import org.junit.jupiter.api.Test;
 
-import com.google.common.collect.Lists;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * 
